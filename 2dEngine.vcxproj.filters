@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{27b2ccb7-d53b-455f-a7d1-3e6325399a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Main">
+      <UniqueIdentifier>{14fa3c7f-ad6c-41a7-9e55-3cdb0ff1b2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defines">
+      <UniqueIdentifier>{ac59be0e-6d9d-4b27-84a2-6e47b7f2afb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defines\Context">
+      <UniqueIdentifier>{cdaa8e26-f2f5-444e-94b0-36caa2dde60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems">
+      <UniqueIdentifier>{f80fc37a-22f5-47b8-b553-ca249e37802f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems\Base">
+      <UniqueIdentifier>{7af9e3ba-1308-4038-88e1-09024ae5be83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneGraph">
+      <UniqueIdentifier>{f1655590-b851-47ae-b814-26fc36705e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneGraph\Base">
+      <UniqueIdentifier>{100309e5-6406-415f-b4b5-aceb2a7a4071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defines\Math">
+      <UniqueIdentifier>{0107ea2c-2835-42c5-9010-a09593dde98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems\Game">
+      <UniqueIdentifier>{51e544e2-3811-48a6-9f17-8d5c555efadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems\Window">
+      <UniqueIdentifier>{b80c6312-5edc-4d13-b46d-c8b86b617d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems\Graphic">
+      <UniqueIdentifier>{ad161e21-0f6c-445a-8845-24c24b14d4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Systems\Timer">
+      <UniqueIdentifier>{fad3223f-604d-4916-9f5c-a67067568fe2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinMain.h">
+      <Filter>Header Files\Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="iostream.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="deletemacros.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="context.h">
+      <Filter>Header Files\Defines\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\Core\Systems\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UObject.h">
+      <Filter>Header Files\SceneGraph\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="d2dutill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Header Files\Defines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect2D.h">
+      <Filter>Header Files\Defines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Defines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header Files\Core\Systems\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Core\Systems\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Core\Systems\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Core\Systems\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDeviceMaganager.h">
+      <Filter>Header Files\Core\Systems\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Core\Systems\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineTimer.h">
+      <Filter>Header Files\Core\Systems\Timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Header Files\Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Header Files\Core\Systems\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Header Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UObject.cpp">
+      <Filter>Header Files\SceneGraph\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.cpp">
+      <Filter>Header Files\Defines\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect2D.cpp">
+      <Filter>Header Files\Defines\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Header Files\Defines\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Header Files\Core\Systems\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Header Files\Core\Systems\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Header Files\Core\Systems\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Header Files\Core\Systems\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDeviceMaganager.cpp">
+      <Filter>Header Files\Core\Systems\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Header Files\Core\Systems\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineTimer.cpp">
+      <Filter>Header Files\Core\Systems\Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
